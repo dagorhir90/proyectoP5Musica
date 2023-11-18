@@ -1,0 +1,113 @@
+body {
+  background-image: url(./pj-alive.jpg);
+  background-color: #8eb1c7;
+  font-family: system-ui, Roboto, sans-serif;
+  font-weight: bold;
+}
+h3 {
+  color: #ffffff;
+  font-size: 35px;
+}
+.container {
+  display: flex;
+  background-color: #c1bfb5;
+  flex-direction: column;
+  border: solid 4px #b02e0c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+input {
+  justify-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 7%;
+  margin: 7px;
+  width: auto;
+}
+.sidebar {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  color: white;
+  max-width: fit-content;
+  width: fit-content;
+  height: 100vh;
+  position: fixed;
+  margin-inline: auto;
+  padding: 15px;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.fotodeperfil {
+  width: 60px;
+  height: 40px;
+}
+.sidebar a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: wheat;
+  border-bottom: solid white 2px;
+}
+.albumes {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 500px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: rgb(red, green, rgb(3, 3, 49));
+}
+.disco {
+  background-color: #c1bfb5;
+  border: solid 4px #b02e0c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  left: 400px;
+}
+.temas{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eb4511;
+  margin: 5px;
+  border: solid 4px #b02e0c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 98%;
+}
+.sm{
+  font-weight: bold;
+}
